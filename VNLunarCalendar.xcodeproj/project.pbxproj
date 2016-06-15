@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34AE96181D0D8171004D5655 /* VNLunarCalendar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34AE96171D0D8171004D5655 /* VNLunarCalendar.h */; };
+		34AE961A1D0D8171004D5655 /* VNLunarCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE96191D0D8171004D5655 /* VNLunarCalendar.m */; };
+		34AE96291D0E5782004D5655 /* VNLunarCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AE96281D0E5782004D5655 /* VNLunarCalendarTests.m */; };
+		34AE962B1D0E5782004D5655 /* libVNLunarCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AE96141D0D8171004D5655 /* libVNLunarCalendar.a */; };
+		34C065B31D10EDEC0082FC30 /* NSDate+Lunar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C065B21D10EDEC0082FC30 /* NSDate+Lunar.m */; };
+		34D740FC1D101E23004B075D /* lunar.c in Sources */ = {isa = PBXBuildFile; fileRef = 34D740FB1D101E23004B075D /* lunar.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34AE962C1D0E5782004D5655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34AE960C1D0D8170004D5655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34AE96131D0D8170004D5655;
+			remoteInfo = VNLunarCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34AE96121D0D8170004D5655 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				34AE96181D0D8171004D5655 /* VNLunarCalendar.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34AE96141D0D8171004D5655 /* libVNLunarCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVNLunarCalendar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AE96171D0D8171004D5655 /* VNLunarCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNLunarCalendar.h; sourceTree = "<group>"; };
+		34AE96191D0D8171004D5655 /* VNLunarCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNLunarCalendar.m; sourceTree = "<group>"; };
+		34AE96261D0E5782004D5655 /* VNLunarCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VNLunarCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AE96281D0E5782004D5655 /* VNLunarCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNLunarCalendarTests.m; sourceTree = "<group>"; };
+		34AE962A1D0E5782004D5655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C065B11D10EDE10082FC30 /* NSDate+Lunar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Lunar.h"; sourceTree = "<group>"; };
+		34C065B21D10EDEC0082FC30 /* NSDate+Lunar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Lunar.m"; sourceTree = "<group>"; };
+		34D740FA1D101E19004B075D /* lunar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lunar.h; sourceTree = "<group>"; };
+		34D740FB1D101E23004B075D /* lunar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lunar.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34AE96111D0D8170004D5655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AE96231D0E5782004D5655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AE962B1D0E5782004D5655 /* libVNLunarCalendar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AE960B1D0D8170004D5655 = {
+			isa = PBXGroup;
+			children = (
+				34AE96161D0D8171004D5655 /* VNLunarCalendar */,
+				34AE96271D0E5782004D5655 /* VNLunarCalendarTests */,
+				34AE96151D0D8171004D5655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34AE96151D0D8171004D5655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34AE96141D0D8171004D5655 /* libVNLunarCalendar.a */,
+				34AE96261D0E5782004D5655 /* VNLunarCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34AE96161D0D8171004D5655 /* VNLunarCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				34AE96171D0D8171004D5655 /* VNLunarCalendar.h */,
+				34AE96191D0D8171004D5655 /* VNLunarCalendar.m */,
+				34C065B11D10EDE10082FC30 /* NSDate+Lunar.h */,
+				34C065B21D10EDEC0082FC30 /* NSDate+Lunar.m */,
+				34D740FA1D101E19004B075D /* lunar.h */,
+				34D740FB1D101E23004B075D /* lunar.c */,
+			);
+			path = VNLunarCalendar;
+			sourceTree = "<group>";
+		};
+		34AE96271D0E5782004D5655 /* VNLunarCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				34AE96281D0E5782004D5655 /* VNLunarCalendarTests.m */,
+				34AE962A1D0E5782004D5655 /* Info.plist */,
+			);
+			path = VNLunarCalendarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34AE96131D0D8170004D5655 /* VNLunarCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AE961D1D0D8171004D5655 /* Build configuration list for PBXNativeTarget "VNLunarCalendar" */;
+			buildPhases = (
+				34AE96101D0D8170004D5655 /* Sources */,
+				34AE96111D0D8170004D5655 /* Frameworks */,
+				34AE96121D0D8170004D5655 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNLunarCalendar;
+			productName = VNLunarCalendar;
+			productReference = 34AE96141D0D8171004D5655 /* libVNLunarCalendar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		34AE96251D0E5782004D5655 /* VNLunarCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AE96301D0E5782004D5655 /* Build configuration list for PBXNativeTarget "VNLunarCalendarTests" */;
+			buildPhases = (
+				34AE96221D0E5782004D5655 /* Sources */,
+				34AE96231D0E5782004D5655 /* Frameworks */,
+				34AE96241D0E5782004D5655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34AE962D1D0E5782004D5655 /* PBXTargetDependency */,
+			);
+			name = VNLunarCalendarTests;
+			productName = VNLunarCalendarTests;
+			productReference = 34AE96261D0E5782004D5655 /* VNLunarCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34AE960C1D0D8170004D5655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = netmaid;
+				TargetAttributes = {
+					34AE96131D0D8170004D5655 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					34AE96251D0E5782004D5655 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 34AE960F1D0D8170004D5655 /* Build configuration list for PBXProject "VNLunarCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34AE960B1D0D8170004D5655;
+			productRefGroup = 34AE96151D0D8171004D5655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34AE96131D0D8170004D5655 /* VNLunarCalendar */,
+				34AE96251D0E5782004D5655 /* VNLunarCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34AE96241D0E5782004D5655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34AE96101D0D8170004D5655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D740FC1D101E23004B075D /* lunar.c in Sources */,
+				34AE961A1D0D8171004D5655 /* VNLunarCalendar.m in Sources */,
+				34C065B31D10EDEC0082FC30 /* NSDate+Lunar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34AE96221D0E5782004D5655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AE96291D0E5782004D5655 /* VNLunarCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34AE962D1D0E5782004D5655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34AE96131D0D8170004D5655 /* VNLunarCalendar */;
+			targetProxy = 34AE962C1D0E5782004D5655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34AE961B1D0D8171004D5655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34AE961C1D0D8171004D5655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34AE961E1D0D8171004D5655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		34AE961F1D0D8171004D5655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34AE962E1D0E5782004D5655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VNLunarCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netmaid.VNLunarCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34AE962F1D0E5782004D5655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VNLunarCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netmaid.VNLunarCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34AE960F1D0D8170004D5655 /* Build configuration list for PBXProject "VNLunarCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AE961B1D0D8171004D5655 /* Debug */,
+				34AE961C1D0D8171004D5655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AE961D1D0D8171004D5655 /* Build configuration list for PBXNativeTarget "VNLunarCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AE961E1D0D8171004D5655 /* Debug */,
+				34AE961F1D0D8171004D5655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AE96301D0E5782004D5655 /* Build configuration list for PBXNativeTarget "VNLunarCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AE962E1D0E5782004D5655 /* Debug */,
+				34AE962F1D0E5782004D5655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34AE960C1D0D8170004D5655 /* Project object */;
+}
