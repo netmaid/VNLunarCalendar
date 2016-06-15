@@ -23,9 +23,9 @@
 
 ## Simple Description
 
-- 'VNLunarCalendar' is asian lunisolar calendar library especially targeted on [Korean calendar](https://en.wikipedia.org/wiki/Korean_calendar)
-- Main codes from [transdate.py](https://bitbucket.org/lifthrasiir/pytransdate/raw/pytransdate-1.1.1/transdate.py) has ported to C language
-- Some of codes has ported to C language from [datetime.py](http://svn.python.org/view/*checkout*/sandbox/trunk/datetime/datetime.py)
+- VNLunarCalendar is asian lunisolar calendar library especially targeted on [Korean calendar](https://en.wikipedia.org/wiki/Korean_calendar).
+- Main codes from [transdate.py](https://bitbucket.org/lifthrasiir/pytransdate/raw/pytransdate-1.1.1/transdate.py) has ported to C language.
+- Some of codes has ported to C language from [datetime.py](http://svn.python.org/view/*checkout*/sandbox/trunk/datetime/datetime.py).
 
 ## License
 
